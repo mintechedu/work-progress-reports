@@ -1,25 +1,21 @@
-# TRANG THAI CONG VIEC HIEN TAI
+# CURRENT TASK — GateKeeper ERP
 
-> Cap nhat lan cuoi: 2026-06-20 10:51 (Bangkok +7)
+**Cập nhật:** 22/06/2026 14:50
+**Branch:** main
+**Repo:** github.com/vudinhducdai/erp.git
 
-## Dang lam
-- [x] Thiet lap he thong bao cao tien do tu dong
-- [x] Tao cloud routine nhac nho 30 phut (Telegram + GitHub Issue + commit)
-- [x] Thiet lap CronJob local trong session theo doi va bao cao
-- [ ] Hoan thien: cap nhat file nay tu dong moi 30 phut
+## ✅ Đã hoàn thành
+- Fix CCCD decrypt (30 nhân viên)
+- Fix menu phân quyền — lọc permissionCode + thêm Hồ sơ
+- Fix logo sidebar → Link /dashboard
+- Trang /history + /admin/permissions redirect
+- QR fullscreen modal Profile, ẩn mã QR non-admin
+- Responsive 19 trang: grid-cols-1 + CSS overflow mobile
+- Modal + ConfirmDialog responsive
 
-## Can lam tiep theo
-- Kiem tra Telegram nhan thong bao dung format chua
-- Revoke va tao lai GitHub token moi (token hien tai da lo trong chat)
-- Revoke va tao lai Telegram bot token moi
-- Mo rong: them tinh nang user co the dien cong viec dang lam vao dau session
+## Commit
+- `adf465b` fix(ui): grid-cols-1 (12 files)
+- `9b5d026` feat: responsive + menu + CCCD (38 files)
 
-## Thong tin du an
-- **Repo bao cao:** https://github.com/mintechedu/work-progress-reports
-- **Lich su commit:** xem folder reports/
-- **Cloud routine:** https://claude.ai/code/routines/trig_01DyEDpQhfTvERBWBvJKQoQW
-- **CronJob local ID:** 48003095 (moi 30 phut, het han khi dong session)
-
-## Ghi chu
-File nay duoc Claude tu dong cap nhat moi 30 phut.
-Khi bat dau session moi, doc file nay de biet dang lam gi.
+## Pipeline
+TS ✅ | Test 13/13 ✅ | Lint ✅
